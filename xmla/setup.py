@@ -7,7 +7,7 @@ long_description = open("README.rst").read() + "\n\n" +  open("CHANGES.md").read
 
 install_requires=[
     'olap',
-    'suds',
+    'suds-jurko',
     'requests == 1.2.3'
     ]
 
